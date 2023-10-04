@@ -1,7 +1,6 @@
 # rust_playground
 
 ## Setup
-
 ### Install Rust
 ```sh
 brew install rustup-init
@@ -19,7 +18,7 @@ Shell Script for Installing Developer Tools
 bash install_dev_tools.sh
 ```
 
-
+If you want to install manually, please see below.
 <details> 
 <summary>Install Package Manager (cargo-edit)</summary>
 
