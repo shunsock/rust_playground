@@ -3,7 +3,6 @@
 function check_exit_status () {
   if [ $? -ne 0 ]; then
     echo "🚨 fail to install $1"
-    deactivate
     echo "exitting..."
     exit 1
   else

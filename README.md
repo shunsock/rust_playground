@@ -14,6 +14,12 @@ cargo --version
 ```
 
 ### Install Developer Tool
+Shell Script for Installing Developer Tools
+```sh
+bash install_dev_tools.sh
+```
+
+
 <details>
 <summary>Install Package Manager (cargo-edit)</summary>
 ```sh
@@ -27,6 +33,7 @@ cargo install cargo-edit
 
 <details>
 <summary>Install Monitoring Software (cargo-watch)</summary>
+
 ```sh
 cargo install cargo-watch
 # cargo watch -x run        // run
@@ -39,6 +46,7 @@ cargo install cargo-watch
 
 <details>
 <summary>Install Formatter</summary>
+
 ```sh
 rustup component add rustfmt
 # cargo fmt
@@ -48,6 +56,7 @@ rustup component add rustfmt
 
 <details>
 <summary>Install Linter (Clippy)</summary>
+
 ```sh
 rustup component add clippy
 # cargo clippy
