@@ -20,13 +20,15 @@ bash install_dev_tools.sh
 ```
 
 
-<details> 
+<details>
 <summary>Install Package Manager (cargo-edit)</summary>
 <code style="white-space:nowrap;">
+```
 cargo install cargo-edit
 # cargo add package         // --dev for dev-env
 # cargo rm package
 # cargo upgrade package
+```
 </code>
 </details>
 
