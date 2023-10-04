@@ -22,7 +22,6 @@ bash install_dev_tools.sh
 
 <details> 
 <summary>Install Package Manager (cargo-edit)</summary>
-
 <code style="white-space:nowrap;">
 cargo install cargo-edit
 # cargo add package         // --dev for dev-env
@@ -34,7 +33,6 @@ cargo install cargo-edit
 
 <details> 
 <summary>Install Monitoring Software (cargo-watch)</summary>
-
 <code style="white-space:nowrap;">
 cargo install cargo-watch
 # cargo watch -x run        // run
@@ -47,7 +45,6 @@ cargo install cargo-watch
 
 <details> 
 <summary>Install Formatter</summary>
-
 <code style="white-space:nowrap;">
 rustup component add rustfmt
 # cargo fmt
@@ -57,7 +54,6 @@ rustup component add rustfmt
 
 <details> 
 <summary>Install Linter (Clippy)</summary>
-
 <code style="white-space:nowrap;">
 rustup component add clippy
 # cargo clippy
